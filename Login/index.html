@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login e Cadastro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="loginForm">
+    <h2>Login</h2>
+    <input type="text" id="loginUsername" placeholder="Nome de usuário" required>
+    <input type="password" id="loginPassword" placeholder="Senha" required>
+    <button type="button" onclick="login()">Entrar</button>
+    <p class="toggle-forms" onclick="toggleForms()">Ainda não tem uma conta? </p>
+<p>Cadastre-se</p>
+  </div>
+
+  <div class="container" id="signupForm" style="display:none;">
+    <h2>Cadastro</h2>
+    <input type="text" id="signupUsername" placeholder="Nome de usuário" required>
+    <input type="password" id="signupPassword" placeholder="Senha" required>
+    <button type="button" onclick="signup()">Cadastrar</button>
+    <p class="toggle-forms" onclick="toggleForms()">Já tem uma conta?</p>
+    <p>Faça login</p>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

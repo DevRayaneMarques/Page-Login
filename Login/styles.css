@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://images6.alphacoders.com/376/thumb-1920-376875.jpg'); /* Caminho da imagem de fundo*/
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  }
+  
+  .container {
+    background-color: rgba(248, 245, 249, 0.938); /* Adiciona um fundo branco semi-transparente para melhor legibilidade */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggle-forms {
+    margin-top: 10px;
+    color: #555;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
